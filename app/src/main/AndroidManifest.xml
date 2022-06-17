@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.firstprototype">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Phoenix C0de"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FirstPrototype">
+        <activity
+            android:name=".choose.Categorie2"
+            android:exported="false" />
+        <activity
+            android:name=".Achievements"
+            android:exported="false" />
+        <activity
+            android:name=".LeaderBoard"
+            android:exported="false" />
+        <activity
+            android:name=".slide.javaslide"
+            android:exported="false" />
+        <activity
+            android:name=".slide.cppslide"
+            android:exported="false" />
+        <activity
+            android:name=".slide.htmlslide"
+            android:exported="false" />
+        <activity
+            android:name=".slide.cssslide"
+            android:exported="false" />
+        <activity
+            android:name=".slide.phpslide"
+            android:exported="false" />
+        <activity
+            android:name=".slide.jsslide"
+            android:exported="false" />
+        <activity
+            android:name=".slide.cslide"
+            android:exported="false" />
+        <activity
+            android:name=".profil"
+            android:exported="false" />
+        <activity
+            android:name=".User.forgotPassword"
+            android:exported="false" />
+        <activity
+            android:name=".animation.splashs"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".slide.pyslide"
+            android:exported="false" />
+        <activity
+            android:name=".choose_1"
+            android:exported="false" />
+        <activity
+            android:name=".activity.PostDetailActivity"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.lessons_c3"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.lessons_c2"
+            android:exported="false" />
+        <activity
+            android:name=".lessons.lessons_c1"
+            android:exported="false" />
+        <activity
+            android:name=".home"
+            android:exported="false" />
+        <activity
+            android:name=".pythonq.EasyPython"
+            android:exported="false" />
+        <activity
+            android:name=".pythonq.NormalPython"
+            android:exported="false" />
+        <activity
+            android:name=".pythonq.HardPython"
+            android:exported="false" />
+        <activity
+            android:name=".javaq.EasyJava"
+            android:exported="false" />
+        <activity
+            android:name=".sharpq.HardSharp"
+            android:exported="false" />
+        <activity
+            android:name=".sharpq.EasySharp"
+            android:exported="false" />
+        <activity
+            android:name=".sharpq.NormalSharp"
+            android:exported="false" />
+        <activity
+            android:name=".Cq.EasyC"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Levelj"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Levelp"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Levelsharp"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Levelc"
+            android:exported="false" />
+        <activity
+            android:name=".levels.Levelcss"
+            android:exported="false" />
+        <activity
+            android:name=".result"
+            android:exported="false" />
+        <activity
+            android:name=".Selectprog"
+            android:exported="false" />
+
+        <activity
+            android:name=".Selectprog2"
+            android:exported="false" />
+        <activity
+            android:name=".Selectprog3"
+            android:exported="false" />
+        <activity
+            android:name=".User.Fm"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_c"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_css"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_js"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_java"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_php"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_pyt"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_html"
+            android:exported="false" />
+        <activity
+            android:name=".pdf.pdfActivity_cpp"
+            android:exported="false" />
+        <activity
+            android:name=".activity.Home2"
+            android:label="@string/title_activity_home" />
+
+        <activity
+            android:name=".Signup"
+            android:exported="false" />
+        <activity
+            android:name=".choose.Categories"
+            android:exported="false" />
+        <activity
+            android:name=".User.MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
